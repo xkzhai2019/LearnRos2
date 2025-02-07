@@ -1,0 +1,27 @@
+[0.241s] Invoking command in '/home/xkzhai/LearnRos2/chap02/chap02_ws/src/demo_python_pkg': PYTHONPATH=/home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/build install --record /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.341s] running egg_info
+[0.342s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.342s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.342s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.342s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.342s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.343s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.343s] adding license file 'LICENSE'
+[0.343s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.343s] running build
+[0.343s] running build_py
+[0.343s] copying demo_python_pkg/person_node.py -> /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.343s] running install
+[0.343s] running install_lib
+[0.344s] copying /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/build/lib/demo_python_pkg/person_node.py -> /home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.344s] byte-compiling /home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py to person_node.cpython-310.pyc
+[0.344s] running install_data
+[0.344s] running install_egg_info
+[0.345s] removing '/home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.345s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.345s] running install_scripts
+[0.355s] Installing person_node script to /home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.355s] Installing python_node script to /home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.355s] Installing writer_node script to /home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.355s] writing list of installed files to '/home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/install.log'
+[0.364s] Invoked command in '/home/xkzhai/LearnRos2/chap02/chap02_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xkzhai/LearnRos2/chap02/chap02_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/build install --record /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
