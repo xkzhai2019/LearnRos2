@@ -2,6 +2,10 @@
 /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg_uninstall.dir
 /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/cpp_node.dir
 /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/person_node.dir
+/home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/learn_auto.dir
+/home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/learn_shared.dir
+/home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/learn_lambda.dir
+/home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/learn_function.dir
 /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/test.dir
 /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/xkzhai/LearnRos2/chap02/chap02_ws/build/demo_cpp_pkg/CMakeFiles/rebuild_cache.dir

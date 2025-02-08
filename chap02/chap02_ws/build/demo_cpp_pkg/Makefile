@@ -223,6 +223,58 @@ person_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
 .PHONY : person_node/fast
 
+#=============================================================================
+# Target rules for targets named learn_auto
+
+# Build rule for target.
+learn_auto: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_auto
+.PHONY : learn_auto
+
+# fast build rule for target.
+learn_auto/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/build
+.PHONY : learn_auto/fast
+
+#=============================================================================
+# Target rules for targets named learn_shared
+
+# Build rule for target.
+learn_shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_shared
+.PHONY : learn_shared
+
+# fast build rule for target.
+learn_shared/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_shared.dir/build.make CMakeFiles/learn_shared.dir/build
+.PHONY : learn_shared/fast
+
+#=============================================================================
+# Target rules for targets named learn_lambda
+
+# Build rule for target.
+learn_lambda: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_lambda
+.PHONY : learn_lambda
+
+# fast build rule for target.
+learn_lambda/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/build
+.PHONY : learn_lambda/fast
+
+#=============================================================================
+# Target rules for targets named learn_function
+
+# Build rule for target.
+learn_function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_function
+.PHONY : learn_function
+
+# fast build rule for target.
+learn_function/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/build
+.PHONY : learn_function/fast
+
 src/cpp_node.o: src/cpp_node.cpp.o
 .PHONY : src/cpp_node.o
 
@@ -246,6 +298,102 @@ src/cpp_node.s: src/cpp_node.cpp.s
 src/cpp_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/cpp_node.cpp.s
 .PHONY : src/cpp_node.cpp.s
+
+src/learn_Lambda.o: src/learn_Lambda.cpp.o
+.PHONY : src/learn_Lambda.o
+
+# target to build an object file
+src/learn_Lambda.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/src/learn_Lambda.cpp.o
+.PHONY : src/learn_Lambda.cpp.o
+
+src/learn_Lambda.i: src/learn_Lambda.cpp.i
+.PHONY : src/learn_Lambda.i
+
+# target to preprocess a source file
+src/learn_Lambda.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/src/learn_Lambda.cpp.i
+.PHONY : src/learn_Lambda.cpp.i
+
+src/learn_Lambda.s: src/learn_Lambda.cpp.s
+.PHONY : src/learn_Lambda.s
+
+# target to generate assembly for a file
+src/learn_Lambda.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/src/learn_Lambda.cpp.s
+.PHONY : src/learn_Lambda.cpp.s
+
+src/learn_auto.o: src/learn_auto.cpp.o
+.PHONY : src/learn_auto.o
+
+# target to build an object file
+src/learn_auto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o
+.PHONY : src/learn_auto.cpp.o
+
+src/learn_auto.i: src/learn_auto.cpp.i
+.PHONY : src/learn_auto.i
+
+# target to preprocess a source file
+src/learn_auto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/src/learn_auto.cpp.i
+.PHONY : src/learn_auto.cpp.i
+
+src/learn_auto.s: src/learn_auto.cpp.s
+.PHONY : src/learn_auto.s
+
+# target to generate assembly for a file
+src/learn_auto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/src/learn_auto.cpp.s
+.PHONY : src/learn_auto.cpp.s
+
+src/learn_function.o: src/learn_function.cpp.o
+.PHONY : src/learn_function.o
+
+# target to build an object file
+src/learn_function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/src/learn_function.cpp.o
+.PHONY : src/learn_function.cpp.o
+
+src/learn_function.i: src/learn_function.cpp.i
+.PHONY : src/learn_function.i
+
+# target to preprocess a source file
+src/learn_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/src/learn_function.cpp.i
+.PHONY : src/learn_function.cpp.i
+
+src/learn_function.s: src/learn_function.cpp.s
+.PHONY : src/learn_function.s
+
+# target to generate assembly for a file
+src/learn_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/src/learn_function.cpp.s
+.PHONY : src/learn_function.cpp.s
+
+src/learn_shared.o: src/learn_shared.cpp.o
+.PHONY : src/learn_shared.o
+
+# target to build an object file
+src/learn_shared.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_shared.dir/build.make CMakeFiles/learn_shared.dir/src/learn_shared.cpp.o
+.PHONY : src/learn_shared.cpp.o
+
+src/learn_shared.i: src/learn_shared.cpp.i
+.PHONY : src/learn_shared.i
+
+# target to preprocess a source file
+src/learn_shared.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_shared.dir/build.make CMakeFiles/learn_shared.dir/src/learn_shared.cpp.i
+.PHONY : src/learn_shared.cpp.i
+
+src/learn_shared.s: src/learn_shared.cpp.s
+.PHONY : src/learn_shared.s
+
+# target to generate assembly for a file
+src/learn_shared.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_shared.dir/build.make CMakeFiles/learn_shared.dir/src/learn_shared.cpp.s
+.PHONY : src/learn_shared.cpp.s
 
 src/person_node.o: src/person_node.cpp.o
 .PHONY : src/person_node.o
@@ -287,10 +435,26 @@ help:
 	@echo "... demo_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_node"
+	@echo "... learn_auto"
+	@echo "... learn_function"
+	@echo "... learn_lambda"
+	@echo "... learn_shared"
 	@echo "... person_node"
 	@echo "... src/cpp_node.o"
 	@echo "... src/cpp_node.i"
 	@echo "... src/cpp_node.s"
+	@echo "... src/learn_Lambda.o"
+	@echo "... src/learn_Lambda.i"
+	@echo "... src/learn_Lambda.s"
+	@echo "... src/learn_auto.o"
+	@echo "... src/learn_auto.i"
+	@echo "... src/learn_auto.s"
+	@echo "... src/learn_function.o"
+	@echo "... src/learn_function.i"
+	@echo "... src/learn_function.s"
+	@echo "... src/learn_shared.o"
+	@echo "... src/learn_shared.i"
+	@echo "... src/learn_shared.s"
 	@echo "... src/person_node.o"
 	@echo "... src/person_node.i"
 	@echo "... src/person_node.s"

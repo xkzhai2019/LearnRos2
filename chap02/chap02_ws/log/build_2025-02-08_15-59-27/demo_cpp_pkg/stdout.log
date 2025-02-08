@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[ 16%] Built target learn_lambda
+[ 41%] Built target person_node
+[ 50%] Built target learn_shared
+[ 58%] [32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o[0m
+[ 75%] Built target learn_auto
+[ 91%] Built target cpp_node

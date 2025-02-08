@@ -15,10 +15,18 @@ find_package(rclcpp REQUIRED)
 
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp)
+add_executable(learn_auto src/learn_auto.cpp)
+add_executable(learn_shared src/learn_shared.cpp)
+add_executable(learn_lambda src/learn_Lambda.cpp)
+add_executable(learn_function src/learn_function.cpp)
 ament_target_dependencies(cpp_node rclcpp)
 ament_target_dependencies(person_node rclcpp)
+# ament_target_dependencies(learn_auto rclcpp)
+# ament_target_dependencies(learn_shared rclcpp)
+# ament_target_dependencies(learn_lambda rclcpp)
+# ament_target_dependencies(learn_function rclcpp)
 
-install(TARGETS cpp_node person_node
+install(TARGETS cpp_node person_node learn_auto learn_shared learn_lambda learn_function
 DESTINATION lib/${PROJECT_NAME}
 )
 if(BUILD_TESTING)

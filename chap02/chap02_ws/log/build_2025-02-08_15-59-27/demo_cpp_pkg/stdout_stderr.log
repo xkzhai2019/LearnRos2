@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[ 16%] Built target learn_lambda
+[ 41%] Built target person_node
+[ 50%] Built target learn_shared
+[ 58%] [32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o[0m
+[ 75%] Built target learn_auto
+[ 91%] Built target cpp_node
+In file included from [01m[K/home/xkzhai/LearnRos2/chap02/chap02_ws/src/demo_cpp_pkg/src/learn_function.cpp:5[m[K:
+/usr/include/c++/11/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (FileSave::*)(const std::__cxx11::basic_string<char>&), FileSave*>[m[K’:
+[01m[K/usr/include/c++/11/functional:768:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (FileSave::*)(const std::__cxx11::basic_string<char>&), FileSave*>[m[K’
+[01m[K/usr/include/c++/11/functional:789:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (FileSave::*)(const std::__cxx11::basic_string<char>&); _BoundArgs = {FileSave*}][m[K’
+[01m[K/home/xkzhai/LearnRos2/chap02/chap02_ws/src/demo_cpp_pkg/src/learn_function.cpp:38:63:[m[K   required from here
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  755 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  756 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  757 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))[m[K’ evaluates to false
+[01m[K/home/xkzhai/LearnRos2/chap02/chap02_ws/src/demo_cpp_pkg/src/learn_function.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/xkzhai/LearnRos2/chap02/chap02_ws/src/demo_cpp_pkg/src/learn_function.cpp:38:63:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::_Bind_helper<false, void (FileSave::*)(const std::__cxx11::basic_string<char>&), FileSave*>::type[m[K’ to non-scalar type ‘[01m[Kstd::function<void(const std::__cxx11::basic_string<char>&)>[m[K’ requested
+   38 |     std::function<void(const std::string &)> save3 = [01;31m[Kstd::bind(&FileSave::save_with_member_fun,&file_save)[m[K; // 使用std::bind()将成员函数变成std::function对象
+      |                                                      [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/learn_function.dir/build.make:76: CMakeFiles/learn_function.dir/src/learn_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_function.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
