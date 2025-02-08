@@ -14,9 +14,11 @@ find_package(rclcpp REQUIRED)
 # include_directories(include)
 
 add_executable(cpp_node src/cpp_node.cpp)
+add_executable(person_node src/person_node.cpp)
 ament_target_dependencies(cpp_node rclcpp)
+ament_target_dependencies(person_node rclcpp)
 
-install(TARGETS cpp_node
+install(TARGETS cpp_node person_node
 DESTINATION lib/${PROJECT_NAME}
 )
 if(BUILD_TESTING)
