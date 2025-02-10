@@ -19,7 +19,7 @@ class Download{
             auto download_fun = std::bind(&Download::download,this,std::placeholders::_1,std::placeholders::_2,std::placeholders::_3);
             std::thread thread(download_fun,host,path,callback);
             thread.detach();
-        }
+        };
 };
 
 int main(){
