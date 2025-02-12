@@ -1,0 +1,8 @@
+[0.007s] Invoking command in '/home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake /home/xkzhai/LearnRos2/chap03/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_cpp_topic
+[0.010s] [31mCMake Error at CMakeLists.txt:30:
+[0.010s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.010s]   "install{TARGETS".
+[0.010s] 
+[0.010s] -- Configuring incomplete, errors occurred!
+[0.010s] [0m
+[0.113s] Invoked command in '/home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_cpp_topic' returned '1': CMAKE_PREFIX_PATH=/home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake /home/xkzhai/LearnRos2/chap03/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_cpp_topic

@@ -1,0 +1,39 @@
+[0.261s] Invoking command in '/home/xkzhai/LearnRos2/chap03/topic_ws/src/demo_python_topic': PYTHONPATH=/home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build install --record /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.359s] running egg_info
+[0.359s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[0.359s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.359s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.359s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.359s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.359s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.360s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.360s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.360s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.360s] running build
+[0.360s] running build_py
+[0.360s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build
+[0.361s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build/lib
+[0.361s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.361s] copying demo_python_topic/__init__.py -> /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.361s] copying demo_python_topic/novel_pub_node.py -> /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.361s] running install
+[0.361s] running install_lib
+[0.361s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.361s] copying /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.361s] copying /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.361s] byte-compiling /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[0.361s] byte-compiling /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.362s] running install_data
+[0.362s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/share
+[0.362s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/share/ament_index
+[0.362s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/share/ament_index/resource_index
+[0.362s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.362s] copying resource/demo_python_topic -> /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.362s] creating /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/share/demo_python_topic
+[0.362s] copying package.xml -> /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/share/demo_python_topic
+[0.362s] running install_egg_info
+[0.362s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.363s] running install_scripts
+[0.372s] Installing novel_pub_node script to /home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[0.372s] writing list of installed files to '/home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/install.log'
+[0.382s] Invoked command in '/home/xkzhai/LearnRos2/chap03/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xkzhai/LearnRos2/chap03/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/build install --record /home/xkzhai/LearnRos2/chap03/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
